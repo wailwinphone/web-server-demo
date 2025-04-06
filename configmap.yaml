@@ -8,23 +8,23 @@ data:
     <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>Farm Animals</title>
+        <title>Wild Animals</title>
         <style>
             body { font-family: Arial, sans-serif; text-align: center; }
-            h1 { color: #4CAF50; }
+            h1 { color: #FF5722; }
             ul { list-style-type: none; padding: 0; }
             li { margin: 10px 0; font-size: 20px; }
         </style>
     </head>
     <body>
-        <h1>6 Farm Animals</h1>
+        <h1>6 Wild Animals</h1>
         <ul>
-            <li>Cow</li>
-            <li>Sheep</li>
-            <li>Pig</li>
-            <li>Chicken</li>
-            <li>Horse</li>
-            <li>Goat</li>
+            <li>Lion</li>
+            <li>Tiger</li>
+            <li>Elephant</li>
+            <li>Leopard</li>
+            <li>Rhinoceros</li>
+            <li>Giraffe</li>
         </ul>
     </body>
     </html>
