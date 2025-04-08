@@ -31,8 +31,8 @@ data:
     <body>
         <h1>6 Farm Animals</h1>
         <ul>
-            <li><<img src="https://raw.githubusercontent.com/wailwinphone/web-server-demo/master/images/cow.jpg" alt="Cow">><Sheep</li>
-            <li><img src="/images/sheep.jpeg" alt="Sheep">Pig</li>
+            <li><img src="https://raw.githubusercontent.com/wailwinphone/web-server-demo/master/images/cow.jpg" alt="Cow"><Cow</li>
+            <li><img src="https://raw.githubusercontent.com/wailwinphone/web-server-demo/master/images/sheep.jpeg" alt="Sheep">Sheep</li>
             <li><img src="/images/pig.jpg" alt="Pig">Pig</li>
             <li><img src="/images/chicken.jpeg" alt="Chicken">Chicken</li>
             <li><img src="/images/horse.jpeg" alt="Horse">Horse</li>
