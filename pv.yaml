@@ -7,7 +7,7 @@ spec:
     storage: 1Gi
   volumeMode: Filesystem
   accessModes:
-    - ReadWriteMany
+    - ReadWriteOnce
   persistentVolumeReclaimPolicy: Retain
   hostPath:
     path: /home/wlp/web-server-demo/images
