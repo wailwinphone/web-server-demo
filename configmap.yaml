@@ -36,7 +36,7 @@ data:
             <li><img src="/usr/share/nginx/html/images/pig.jpg" alt="Pig">Pig</li>
             <li><img src="/usr/share/nginx/html/images/chicken.jpeg" alt="Chicken">Chicken</li>
             <li><img src="images/horse.jpeg" alt="Horse">Horse</li>
-            <li><img src="goat.jpg" alt="Goat">Goat</li>
+            <li><img src="goat.jpg" alt="Goat">Duck</li>
         </ul>
     </body>
     </html>
