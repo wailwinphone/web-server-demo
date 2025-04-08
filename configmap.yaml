@@ -17,10 +17,10 @@ data:
         </style>
     </head>
     <body>
-        <h1>6 Farm Animals</h1>
+        <h1>6 Wild Animals</h1>
         <ul>
-            <li>Cow</li>
-            <li>Sheep</li>
+            <li>Lion</li>
+            <li>Tiger</li>
             <li>Pig</li>
             <li>Chicken</li>
             <li>Horse</li>
