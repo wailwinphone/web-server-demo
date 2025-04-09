@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: nginx-deployment
 spec:
-  replicas: 3
+  replicas: 
   selector:
     matchLabels:
       app: nginx
@@ -20,7 +20,13 @@ spec:
         volumeMounts:
         - name: html-volume
           mountPath: /usr/share/nginx/html
+        - name: images-volume
+          mountPath: /usr/share/nginx/images
       volumes:
       - name: html-volume
         configMap:
           name: nginx-html
+      - name: images-volume
+        hostPath:
+          path: /home/wlp/web-server-demo/images  
+          type: Directory
