@@ -10,4 +10,5 @@ spec:
     - ReadWriteOnce
   persistentVolumeReclaimPolicy: Retain
   hostPath:
-    path: /images
+    path: /home/wlp/web-server-demo/images
+    type: Directory

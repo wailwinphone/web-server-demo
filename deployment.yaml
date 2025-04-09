@@ -13,7 +13,7 @@ spec:
         app: nginx
     spec:
       volumes:
-      - name: img-volume
+      - name: images-volume
         persistentVolumeClaim:
           claimName: images-pvc
         configMap:
@@ -28,6 +28,9 @@ spec:
         volumeMounts:
         - name: html-volume
           mountPath: /usr/share/nginx/html
+        volumeMounts:
+        - name: images-volume
+          mountPath: /images
       volumes:
       - name: html-volume
         configMap:
