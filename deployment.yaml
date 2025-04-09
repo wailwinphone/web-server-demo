@@ -12,6 +12,13 @@ spec:
       labels:
         app: nginx
     spec:
+      volumes:
+      - name: img-volume
+        persistentVolumeClaim:
+          claimName: images-pvc
+        configMap:
+          name: nginx-html
+          defaultMode: 420
       containers:
       - name: nginx
         image: nginx:latest
