@@ -11,4 +11,3 @@ spec:
   persistentVolumeReclaimPolicy: Retain
   hostPath:
     path: /images
-    type: Directory
