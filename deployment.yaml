@@ -21,8 +21,16 @@ spec:
         volumeMounts:
         - name: html-volume
           mountPath: /usr/share/nginx/html
+
+        volumeMounts:
+        - name: images-volume
+          mountPath: /user/share/nginx/html/images
       volumes:
       - name: html-volume
         configMap:
           name: nginx-html
           defaultMode: 420 
+      volumes:
+      - name: images-volume
+        persistentVolumeClaim:
+          claimName: images-pvc
