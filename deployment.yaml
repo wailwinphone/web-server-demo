@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: nginx-deployment
 spec:
-  replicas: 3
+  replicas: 
   selector:
     matchLabels:
       app: nginx
@@ -27,5 +27,6 @@ spec:
         configMap:
           name: nginx-html
       - name: images-volume
-        persistentVolumeClaim:
-          claimName: images-pvc
+        hostPath:
+          path: /home/wlp/web-server-demo/images  
+          type: Directory
