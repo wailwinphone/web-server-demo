@@ -36,6 +36,7 @@ data:
             <li><img src="https://raw.githubusercontent.com/wailwinphone/web-server-demo/master/images/pig.jpg" alt="Pig">Pig</li>
             <li><img src="https://raw.githubusercontent.com/wailwinphone/web-server-demo/master/images/chicken.jpeg" alt="Chicken">Chicken</li>
             <li><img src="https://raw.githubusercontent.com/wailwinphone/web-server-demo/master/images/horse.jpeg" alt="Horse">Horse</li>
+            <li>Hello</li>
         </ul>
     </body>
     </html>
