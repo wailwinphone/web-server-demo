@@ -33,10 +33,10 @@ data:
         <ul>
             <li><img src="https://raw.githubusercontent.com/wailwinphone/web-server-demo/master/images/cow.jpg" alt="Cow">Cow</li>
             <li><img src="https://raw.githubusercontent.com/wailwinphone/web-server-demo/master/images/sheep.jpeg" alt="Sheep">Sheep</li>
-            <li><img src="/usr/share/nginx/images/pig.jpg" alt="Pig">Piggy</li>
-            <li><img src="/home/wlp/web-server-demo/images/chicken.jpeg" alt="Chicken">Chicken</li>
-            <li><img src="images/horse.jpeg" alt="Horse">Horse</li>
-            <li><img src="goat.jpg" alt="Goat">Donkey</li>
+            <li><img src="https://github.com/wailwinphone/web-server-demo/blob/master/images/pig.jpg>Pig</li>
+            <li><img src="https://github.com/wailwinphone/web-server-demo/blob/master/images/chicken.jpeg>Chicken</li>
+            <li><img src="https://github.com/wailwinphone/web-server-demo/blob/master/images/horse.jpeg>Horse</li>
+            <li><img src="https://github.com/wailwinphone/web-server-demo/blob/master/images/goat.jpg">Goat</li>
         </ul>
     </body>
     </html>
